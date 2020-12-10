@@ -6,12 +6,22 @@ using System.Threading.Tasks;
 
 namespace ROCKARTEMIS
 {
-    class Multimedia
+    abstract class Multimedia
     {
         string name;
         string artistname;
         TimeSpan duration;
 
         string referencia;
+    }
+
+    class Video : Multimedia
+    {
+
+    }
+
+    class Audio : Multimedia
+    {
+
     }
 }

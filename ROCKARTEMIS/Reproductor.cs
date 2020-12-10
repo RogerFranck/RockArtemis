@@ -10,8 +10,6 @@ namespace ROCKARTEMIS
     {
         public Multimedia currentMusic => throw new NotImplementedException();
 
-        public List<Multimedia> Queue => throw new NotImplementedException();
-
         public void Next()
         {
             throw new NotImplementedException();
@@ -22,7 +20,12 @@ namespace ROCKARTEMIS
             throw new NotImplementedException();
         }
 
-        public void Play()
+        public void Play(Multimedia song)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Stop()
         {
             throw new NotImplementedException();
         }

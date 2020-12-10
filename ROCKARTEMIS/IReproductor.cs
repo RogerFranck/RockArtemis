@@ -10,13 +10,14 @@ namespace ROCKARTEMIS
     {
 
         Multimedia currentMusic { get; }
-        List<Multimedia> Queue { get; }
 
         void Pause();
 
-        void Play();
+        void Play(Multimedia song);
 
         void Next();
+
+        void Stop();
     
     }
 }
